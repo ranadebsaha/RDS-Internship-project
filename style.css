@@ -53,4 +53,21 @@ a{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 100px;
+    margin-top: 0;
+}
+
+.btn1{
+    margin-left: 11%;
+    border-radius: 21%;
+    border-color: white;
+    font-size: 10px;
+    padding: 9px;
+}
+
+.btn2{
+    border-radius: 21%;
+    background-color: black;
+    font-size: 10px;
+    padding: 9px;
+    color: white;
 }
