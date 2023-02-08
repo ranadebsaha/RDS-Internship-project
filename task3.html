@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- RDS Web Page Project -->
 
 <head>
     <meta charset="UTF-8">
@@ -12,41 +13,126 @@
 <body>
     <!-- Nav Bar -->
     <header class=" header">
-            <div class="logo">
-                <img src="./img/cloud_logo.png" alt="A cloud Logo">
-                Green
-            </div>
-            <!-- Main Menu -->
-            <div class="menu">
-                <a href="" class="home">HOME</a>
-                <a href="">ABOUT</a>
-                <a href="">PRODUCTS</a>
-                <a href="">SERVICES</a>
-                <a href="">FAQS</a>
-                <a href="">CONTACTS</a>
-            </div>
+        <div class="logo">
+            <img src="./img/cloud_logo.png" alt="A cloud Logo">
+            Green
+        </div>
+        <!-- Main Menu -->
+        <div class="menu">
+            <a href="" class="home">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">PRODUCTS</a>
+            <a href="">SERVICES</a>
+            <a href="">FAQS</a>
+            <a href="">CONTACTS</a>
+        </div>
     </header>
     <!-- Main section -->
     <section class="main">
         <div>
-            <h1 class="heading">FRESH IDEAS</h1>
-            <p class="heading" style="font-size: 7px;">FOR GROWING YOUR BUSINESS</p>
+            <h1 class="heading" style="padding-top: 40px; margin: 0%; padding: bottom 0%;">FRESH IDEAS</h1>
+            <p class="heading" style="font-size: 7px; margin:0%; padding-bottom: 20px; padding-top: 0%">FOR GROWING YOUR
+                BUSINESS</p>
             <button class="btn1">READ MORE</button>
             <button class="btn2">REGISTER</button>
         </div>
     </section>
     <!-- content section -->
-    <section>
+    <section class="content">
         <div>
-            <h2>Research</h2>
+            <h2 id="content-heading"> <img src="./img/research-img.png" alt="A Beaker Logo" id="content-img">Research
+            </h2>
+            <p style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum
+                tempore sed reprehenderit, excepturi dolorum laudantium quia consequuntur est minima!</p>
+            <button class="content_btn">READ MORE</button>
         </div>
         <div>
-            <h2>Planning</h2>
+            <h2 id="content-heading"> <img src="./img/planning-img.png" alt="A Note Book Logo" id="content-img">Planning
+            </h2>
+            <p style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum
+                tempore sed reprehenderit, excepturi dolorum laudantium quia consequuntur est minima!</p>
+            <button class="content_btn">READ MORE</button>
         </div>
         <div>
-            <h2>Support</h2>
+            <h2 id="content-heading"> <img src="./img/support-img.png" alt="A support logo" id="content-img">Support
+            </h2>
+            <p style="font-size: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum
+                tempore sed reprehenderit, excepturi dolorum laudantium quia consequuntur est minima!</p>
+            <button class="content_btn">READ MORE</button>
         </div>
     </section>
+
+    <!-- Service and Contact Section -->
+    <section class="service-section">
+        <div class="workteam">
+            <h2>Work team.</h2>
+            <p style="font-size: 13px;">Ranadeb Saha with RDS and Tublu. Diploma in Computer Science and Technology from Central Calcutta Polytechnic.
+                Use Samsung Monitor, Lapcare Keyboard, Logitech Mouse, Redmi 9 Power Android Device Frontech CPU.</p>
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, vel quaerat. Perferendis cupiditate corrupti eveniet repellendus magni? Suscipit, aliquam aliquid. -->
+        </div>
+        <div class="service">
+            <h2>Services.</h2>
+                <li class="list"><span>C programming</span></li>
+                <li class="list"><span>Java</span></li>
+                <li class="list"><span>Python</span></li>
+                <li class="list"><span>HTML, CSS</span></li>
+                <li class="list"><span>JavaScript, React JS</span></li>
+                <li class="list"><span>MS Word, MS Excel, MS PowerPoint</span></li>
+            <button class="service_readmore-btn">READ MORE</button>
+        </div>
+        <div class="contact">
+            <h2>Contact.</h2>
+            <input type="text" placeholder="YOUR NAME" class="textbox">
+            <input type="text" placeholder="YOUR EMAIL" class="textbox">
+            <textarea name="Message" id="email" cols="30" rows="4" placeholder="MESSAGE" class="textarea"></textarea>
+            <div>
+            <button class="send-btn">SEND</button>
+            <button class="clear-btn">CLEAR</button>
+            </div>
+        </div>
+    </section>
+         <!-- Footer section -->
+    <footer class="footer">
+        <div class="company">
+            <h5 style="margin-bottom:0%; padding-bottom:0%;">COMPANY</h5>
+        <hr width="100px" class="line">
+        <li class="about">ABOUT JS</li>
+        <li class="l1">SERVICES</li>
+        <hr>
+        <li class="l1">WORK TEAM</li>
+        <hr>
+        <li class="l1">CLASS</li>
+
+        </div>
+        <div class="footer-service">
+            <h5 style="margin-bottom: 0%; padding-bottom:0%;">SERVICES</h5>
+            <hr class="line">
+            <li class="l1">JAVA</li>
+            <hr>
+            <li class="l1">PYTHON</li>
+            <hr>
+            <li class="l1">HTML</li>
+        </div>
+        <div class="advice">
+            <h5 style="margin-bottom: 0%; padding-bottom:0%;">ADVICE</h5>
+            <hr class="line">
+            <li class="l1">FAQS</li>
+            <hr>
+            <li class="l1">SOLUTION</li>
+        </div>
+        <div class="member">
+            <h5 style="margin-bottom: 0%; padding-bottom:0%;">MEMBERS</h5>
+            <hr class="line">
+            <li class="l1">RANADEB SAHA</li>
+            <hr>
+            <li class="l1">TUBLU SAHA</li>
+            <hr>
+            <li class="l1">SAHA RANADEB</li>
+        </div>
+    </footer>
+    <div class="email">
+        <p style="padding:0%; margin:0%;">Power By RDS Academy Copyright By ranadebsaha@yahoo.com</p>
+    </div>
 </body>
 
 </html>
